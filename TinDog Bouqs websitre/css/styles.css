@@ -1,0 +1,149 @@
+body{
+  font-family: 'Montserrat';
+  font-weight: 400;
+  text-align: center
+ }
+
+h1,h2,h3,h4,h5,h6{
+
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+ p{
+  color: #8f8f8f;
+ }
+ .container-fluid{
+   padding: 7% 15%;
+ }
+
+ /* Section */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+}
+/* Title Section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+/* Big Heading */
+.big-heading{
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Tiltle Image  */
+.title-phone{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Download Button */
+.download{
+  margin: 5% 3% 5% 0 ;
+}
+
+/* Icons Awesome */
+.af-icon{
+  color:#ef8172;
+  padding-bottom: 10%;
+}
+.af-icon:hover{
+  color: #ff4c68;
+}
+/* Features section */
+
+.felements{
+
+  padding: 0 3%;
+}
+#features{
+  position: relative;
+}
+.features-title{
+  font-size: 1.5rem;
+}
+
+/* testimonials Section */
+#testimonials{
+  background-color: #ef8172;
+}
+.dog-photo{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* Press Section  */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-images{
+  width:12%;
+  margin: 20px 20px 50px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* pricing Section */
+#pricing{
+  padding: 80px;
+
+}
+.pricing-cards{
+  padding: 3% 2%;
+}
+.pricing-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+.title-phone{
+  transform: rotate(0);
+  position: static;
+}
+}
+
+/* footer */
+.icon-footer{
+  padding: 2% 1%;
+}
